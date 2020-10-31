@@ -1,5 +1,20 @@
 body {
-    background-color: gray;
+   background-image: url("images/halloween-background.jpeg");
+   background-position: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: #9900cc;
+    font-size: 80px;
+    font-family: 'Syne Tactile', cursive;
+}
+
+.game-board {
+    display: flex;
+    justify-content: center;
 }
 
 .row {
@@ -11,5 +26,5 @@ body {
     height: 80px;
     width: 80px;
     border: 5px black solid;
-    margin: 1px;
+    margin: 3px;
 }
